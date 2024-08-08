@@ -4,7 +4,7 @@ import logging
 import os
 from dotenv import load_dotenv
 
-import headhunter
+import hunter
 import storage
 
 loaded_env = load_dotenv(".env")
@@ -25,7 +25,7 @@ def main():
     positions = storage.GetPositions()
     for profession in positions:
         logging.info(f"Searching for profession {profession.Id}: {profession.Title}")
-        headhunter.find_profession(profession)
+        hunter.find_profession(profession)
         
         logging.info(f"Profession parsed {profession.Id}: {profession.Title}")
         print(f"Profession parsed {profession.Id}: {profession.Title}")

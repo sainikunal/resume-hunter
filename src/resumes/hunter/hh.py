@@ -1,11 +1,11 @@
 from models import Position, City
 from bs4 import BeautifulSoup
-from headhunter import tools 
+from hunter import tools 
 import storage
 from multiprocessing import Pool
 import logging
 
-from headhunter import Scraper
+from hunter import Scraper
 
 TOTAL_NUMBER_RESUME_LIMIT = 2_000
 CURRENT_POSITION_ID = None

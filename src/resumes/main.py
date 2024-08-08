@@ -22,7 +22,7 @@ logging.getLogger("selenium").setLevel(logging.WARNING)
 def main():
     start = time.perf_counter()
     logging.warning("Not all resumes are parsed, as some are only available to authorized users or employers")
-    positions = storage.GetPositions()
+    positions = storage.get_positions()
     for profession in positions:
         logging.info(f"Searching for profession {profession.Id}: {profession.Title}")
         hunter.find_profession(profession)

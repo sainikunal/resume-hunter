@@ -2,7 +2,7 @@
 
 ## Overview
 
-Headhunter Resumes is a powerful application designed to streamline the process of finding and managing resumes on https://hh.ru, one of the leading job and recruitment websites. This tool aims to assist recruiters and HR professionals in efficiently locating potential candidates by automating the search and filtration process based on predefined criteria.
+Hunter Resumes is a powerful application designed to streamline the process of finding and managing resumes on https://hh.ru, one of the leading job and recruitment websites. This tool aims to assist recruiters and HR professionals in efficiently locating potential candidates by automating the search and filtration process based on predefined criteria.
 
 ## Features
 
